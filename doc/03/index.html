@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="header_top">
+                <div class="header_left">
+                    <h1>
+                        <img src="./images/logo01.svg" class="logo" alt="">
+                    </h1>
+                </div>
+                <div class="header_right">
+                    <ul class="login">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                    </ul>
+                </div>
+                <div class="mopen">
+                    <i class="xi-bars"></i>
+                </div>
+            </div>
+            <div class="inner">
+                <nav class="gnb">
+                    <ul class="gnb_left">
+                        <li><a href="" class="LADIES">LADIES</a>
+                        </li>
+                        <li><a href="">MEN</a>
+                        </li>
+                        <li><a href="">ACC</a>
+                        </li>
+                        <li><a href="">BEAUTY</a>
+                        </li>
+                        <li><a href="">GOLF</a>
+                        </li>
+                        <li><a href="">BEST</a>
+                        </li>
+                    </ul>
+                    <ul class="gnb_right">
+                        <li class="search">
+                            <form method="get" action="f">
+                                <input type="text" name="search" placeholder="">
+                                <button>
+                                    <i class="xi-search"></i>
+                                </button>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="">EVENT</a>
+                        </li>
+                        <li>
+                            <a href="">MAGAZINE</a>
+                        </li>
+                    </ul>
+                    <ul class="sub">
+                        <li class="sub01">
+                            <ul><a href=""><strong>여성의류</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">티셔츠</a></ul>
+                            <ul><a href="">셔츠/블라우스</a></ul>
+                            <ul><a href="">팬츠</a></ul>
+                            <ul><a href="">스커트</a></ul>
+                            <ul><a href="">원피스</a></ul>
+                            <ul><a href="">니트/스웨터</a></ul>
+                            <ul><a href="">아우터</a></ul>
+                        </li>
+                        <li class="sub02">
+                            <ul><a href=""><strong>남성의류</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">티셔츠</a></ul>
+                            <ul><a href="">셔츠</a></ul>
+                            <ul><a href="">팬츠</a></ul>
+                            <ul><a href="">자켓/베스트</a></ul>
+                            <ul><a href="">가디건</a></ul>
+                            <ul><a href="">니트/스웨터</a></ul>
+                            <ul><a href="">코트</a></ul>
+                            <ul><a href="">점퍼</a></ul>
+                        </li>
+                        <li class="sub03">
+                            <ul><a href=""><strong>여성가방/잡화</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">가방</a></ul>
+                            <ul><a href="">지갑</a></ul>
+                            <ul><a href="">벨트</a></ul>
+                            <ul><a href="">스카프/머플러</a></ul>
+                            <ul><a href="">장갑</a></ul>
+                            <ul><a href="">모자</a></ul>
+                            <ul><a href="">양말</a></ul>
+                            <ul><a href="">키링/키홀더</a></ul>
+                            <ul><a href="">기타ACC</a></ul>
+                        </li>
+                        <li class="sub04">
+                            <ul><a href=""><strong>남성가방/잡화</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">가방</a></ul>
+                            <ul><a href="">지갑</a></ul>
+                            <ul><a href="">벨트</a></ul>
+                            <ul><a href="">스카프/머플러</a></ul>
+                            <ul><a href="">장갑</a></ul>
+                            <ul><a href="">모자</a></ul>
+                            <ul><a href="">양말</a></ul>
+                            <ul><a href="">키링/키홀더</a></ul>
+                            <ul><a href="">기타ACC</a></ul>
+                        </li>
+                        <li class="sub05">
+                            <ul><a href=""><strong>여성시계/쥬얼리</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">브랜드쥬얼리</a></ul>
+                        </li>
+                        <li class="sub06">
+                            <ul><a href=""><strong>여성슈즈</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">플랫슈즈</a></ul>
+                        </li>
+                        <li class="sub07">
+                            <ul><a href=""><strong>남성골프웨어</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">긴팔티셔츠</a></ul>
+                            <ul><a href="">긴바지</a></ul>
+                            <ul><a href="">점퍼</a></ul>
+                            <ul><a href="">다운/패딩점퍼</a></ul>
+                            <ul><a href="">가디건</a></ul>
+                            <ul><a href="">니트/스웨터</a></ul>
+                            <ul><a href="">베스트</a></ul>
+                            <ul><a href="">반바지</a></ul>
+                            <ul><a href="">반팔티셔츠</a></ul>
+                        </li>
+                        <li class="sub08">
+                            <ul><a href=""><strong>여성골프웨어</strong></a></ul>
+                            <ul><a href="">전체</a></ul>
+                            <ul><a href="">긴팔티셔츠</a></ul>
+                            <ul><a href="">롱팬츠</a></ul>
+                            <ul><a href="">원피스</a></ul>
+                            <ul><a href="">치마</a></ul>
+                            <ul><a href="">반바지</a></ul>
+                            <ul><a href="">다운/패딩점퍼</a></ul>
+                            <ul><a href="">점퍼</a></ul>
+                            <ul><a href="">니트/스웨터</a></ul>
+                            <ul><a href="">베스트</a></ul>
+                            <ul><a href="">가디건</a></ul>
+                            <ul><a href="">반팔티셔츠</a></ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="main_visual">
+                <h2 class="blind">메인 슬라이드</h2>
+                <div class="swiper-container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual01.jpg" alt="">
+                            <div class="slide-text">
+                                <strong>여름 휴가를 책임질 가방</strong>
+                                <p>여행 가방부터 헤지스가 추천하는 트래블룩까지</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual03.jpg" alt="">
+                            <div class="slide-text">
+                                <strong>The Gardener</strong>
+                                <p>2023 Summer Collection</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual04.jpg" alt="">
+                            <div class="slide-text">
+                                <strong>SUMMER HOLIDAY GUIDE</strong>
+                                <p>여름 휴가 준비를 위한 쿠폰+마일리지 | 증정 이벤트📸</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual05.jpg" alt="">
+                            <div class="slide-text">
+                                <strong>GOLF GIFT EVENT</strong>
+                                <p>캐디백 구매 시 항공커버 증정</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main_visual06.jpg" alt="">
+                            <div class="slide-text">
+                                <strong>HIS TERRY COLLECTION</strong>
+                                <p>히스헤지스와 리복 클럽 C85의 스타일링 협업 출시!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+
+            <section class="main_tab sec">
+                <h2 class="blind">메인 탭메뉴</h2>
+                <div class="inner">
+                    <div class="tit">
+                        <h3>HAZZYS BEST SELLER</h3>
+                    </div>
+                    <div class="tab-wrapper">
+                        <a class="tab" rel="tab01">LADIES</a>
+                        <a class="tab" rel="tab02">MEN</a>
+                        <a class="tab" rel="tab03">ACC</a>
+                    </div>
+
+                    <div class="tab-contents tab01">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_01.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>1</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>블랙 카라배색 A라인 피케 원피스</p>
+                                            <span>125,680</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_02.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>2</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>네이비 단색 면혼방 반팔카라티셔츠</p>
+                                            <span>82,840</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_03.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>3</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>바이올렛 단색 면혼방 반팔카라티...</p>
+                                            <span>125,680</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_04.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>4</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>[블루오션 아이코닉] 네이비 케이...</p>
+                                            <span>166,440</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_05.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>5</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>블루 스트라이프 면 반팔셔츠</p>
+                                            <span>112,380</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_06.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>6</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>[아이코닉 인기BEST] 베이지 스...</p>
+                                            <span>170,050</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_07.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>7</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>블랙 스트라이프 면 반팔카라티셔츠</p>
+                                            <span>151,050</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_08.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>8</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>다크그린 카라배색 A라인 피케 원...</p>
+                                            <span>125,680</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_09.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>9</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>그린 프린트배색 면 반팔티셔츠</p>
+                                            <span>72,480</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event01_10.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>10</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS LADIES<br>블루 버튼다운 면혼방 반팔셔츠</p>
+                                            <span>99,080</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="tab-contents tab02">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_01.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>1</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[아이코닉] 네이비 블루오션 아이...</p>
+                                            <span>113,240</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_02.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>2</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[COMMUTER] 카키 단색 면혼방...</p>
+                                            <span>75,240</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_03.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>3</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[아이코닉] 라이트베이지 아이코닉...</p>
+                                            <span>113,240</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_04.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>4</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[아이코닉] 멜란지네이비 아이코닉...</p>
+                                            <span>113,240</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_05.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>5</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[2in1] 베이지/블랙 면혼방 반팔...</p>
+                                            <span>75,240</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_06.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>6</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>베이지 단색 면혼방 반팔티셔츠</p>
+                                            <span>82,840</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_07.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>7</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[블루오션 아이코닉] 크림 케이블...</p>
+                                            <span>166,440</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_08.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>8</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[PREMIER COOL] 다크네이비...</p>
+                                            <span>72,480</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_09.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>9</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>[Soft-cotton] 화이트 스트라이...</p>
+                                            <span>112,380</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event02_10.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>10</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS MEN<br>블루 린넨 솔리드 반팔 셔츠</p>
+                                            <span>112,380</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="tab-contents tab03">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_01.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>1</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[SAVER] 품절대란 블랙 나일론...</p>
+                                            <span>90,270</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_02.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>2</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[SAVER] 브라운 체크 퍼피 로고...</p>
+                                            <span>119,880</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_03.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>3</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[라잇백] 블랙 심플 포켓 나일론 탑...</p>
+                                            <span>90,270</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_04.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>4</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>블랙 페브릭 로고라벨 크로스 겸용...</p>
+                                            <span>103,680</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_05.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>5</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[Online Limited] 다크 브라운 스...</p>
+                                            <span>59,670</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_06.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>6</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[SAVER] 퍼피 로고 아이보리 콤...</p>
+                                            <span>127,680</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_07.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>7</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[SAVER] 블랙 나일론 퍼피로고...</p>
+                                            <span>113,220</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_08.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>8</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[SAVER] 브라운 헤링본 퍼피 로...</p>
+                                            <span>127,980</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_09.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>9</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>[크리스탈 퍼피] 블랙 퍼피장식 나...</p>
+                                            <span>166,770</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/event03_10.jpg" alt="">
+                                    <div class="num_list">
+                                        <div class="content_num">
+                                            <strong>10</strong>
+                                        </div>
+                                        <div class="content_list">
+                                            <p>HEZZYS ACC<br>블랙 체크패턴 소가죽 벨트</p>
+                                            <span>95,580</span>
+                                        </div>
+                                        <div class="lnk">
+                                            <a href="">
+                                                <i class="xi-heart-o wish"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+            </section>
+
+
+
+            <section class="main_content sec">
+                <h2 class="blind">메인 콘텐츠</h2>
+                <div class="inner">
+                    <div class="box">
+                        <div class="tit">
+                            <h3>SUMMER HOLIDAY</h3>
+                            <p>여름추천 아이템 구경하고 쿠폰 해택과 사은품 받아가세요!</p>
+                            <a href="">바로 보러 가기 <i class="xi-angle-right"></i></a>
+                        </div>
+                        <div class="swiper-container sub_slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-container">
+                                        <img src="./images/main_content01.jpg" alt="">
+                                        <div class="content_list">
+                                            <p>[Disney] 네이비 프린트배색 면 반팔티셔츠</p>
+                                            <span>116,420</span>
+                                        </div>
+                                    </div>
+                                    <div class="lnk">
+                                        <a href="">
+                                            <i class="xi-heart-o wish"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-container">
+                                        <img src="./images/main_content02.jpg" alt="">
+                                        <div class="content_list">
+                                            <p>화이트 프린트배색 면 반팔티셔츠</p>
+                                            <span>72,480</span>
+                                        </div>
+                                    </div>
+                                    <div class="lnk">
+                                        <a href="">
+                                            <i class="xi-heart-o wish"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-container">
+                                        <img src="./images/main_content03.jpg" alt="">
+                                        <div class="content_list">
+                                            <p>[PUPPY] 네이비 스트라이프 면 반팔티셔츠</p>
+                                            <span>52,530</span>
+                                        </div>
+                                    </div>
+                                    <div class="lnk">
+                                        <a href="">
+                                            <i class="xi-heart-o wish"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-container">
+                                        <img src="./images/main_content04.jpg" alt="">
+                                        <div class="content_list">
+                                            <p>[H20] H 아이보리 시그니처 패턴 숄더백</p>
+                                            <span>281,880</span>
+                                        </div>
+                                    </div>
+                                    <div class="lnk">
+                                        <a href="">
+                                            <i class="xi-heart-o wish"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide-container">
+                                        <img src="./images/main_content05.jpg" alt="">
+                                        <div class="content_list">
+                                            <p>[라잇백] 브라운 심플 포켓 탑집 토트백</p>
+                                            <span>208,980</span>
+                                        </div>
+                                    </div>
+                                    <div class="lnk">
+                                        <a href="">
+                                            <i class="xi-heart-o wish"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box01">
+                        <div class="swiper-container main_slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/main_content03.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/main_content04.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/main_content05.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/main_content01.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/main_content02.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main_review sec">
+                <div class="inner">
+                    <div class="tit">
+                        <h3>'리뷰 맛집' 헤지스닷컴의 패션피플은?</h3>
+                    </div>
+                    <div class="tab-wrapper02">
+                        <a class="tab" rel="tab04">체험단리뷰</a>
+                        <a class="tab" rel="tab05">스태프리뷰</a>
+                        <a class="tab" rel="tab06">H사진관리뷰</a>
+                        <a class="tab" rel="tab07">고객리뷰</a>
+                    </div>
+
+                    <div class="tab-contents02 tab04">
+                        <div class="tab_box_wrapper">
+                            <div class="tab_box main_box tab_box01_01">
+                                <img src="./images/review01_01_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box01_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>아웃 디자인 자체도 반원의 형태로 부드러운 느낌을 주면서 거기에 헤지스의 시그니처 패턴과 이번 콜라보 담비의 캐릭터가 프린팅 되어 있어
+                                            보다
+                                            키치한
+                                            느낌을 주고 있어요. 평소...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review01_01_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">체험단이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HEZZYS LADIES<br>[Bambi X HEZZYS] 시그니처 패턴</p>
+                                            <span>253,300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_box main_box tab_box02_01">
+                                <img src="./images/review01_02_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box02_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>부드럽고 상큼한 라이트그린 컬러감이 돋보이는 팬츠에요 색상이 부담스럽지 않고 크리미한 민트색 같다고 느꼈어요 여름에 입으면 너무 귀엽고
+                                            포인트 될
+                                            거 같아요🍀 하이웨스트는 아...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review01_02_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">체험단이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HAZZYS LADIES<br>네이비 스트라이프 면혼방 반팔카라원피스</p>
+                                            <span>125,680</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents02 tab05">
+                        <div class="tab_box_wrapper">
+                            <div class="tab_box main_box tab_box01_01">
+                                <img src="./images/review02_01_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box01_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>설명대로 터치감이 정말 부드러워서 입을때 착! 감기는 느낌입니다🥰 기본 스트라이프 원피스에, 핏도 여유롭게 나와서 여러룩으로 활용하기 넘
+                                            좋을거
+                                            같아요! 여름 휴가나 여행갈때...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review02_01_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">스태프가 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HEZZYS LADIES<br>네이비 스트라이프 면혼방 반팔카라원피...</p>
+                                            <span>125,680</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_box main_box tab_box02_01">
+                                <img src="./images/review02_02_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box02_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>니트지만 여름에 입기 좋은 니트입니다! 시원한 느낌의 소재라서 한여름에 입어도 답답하지 않을것 같아요. 바람이 불땐 부는대로 시원하게 비가
+                                            오거나
+                                            쌀쌀해지는 밤에는 또 너무 춥...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review02_02_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">스태프가 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HAZZYS LADIES<br>[블루오션 아이코닉] 옐로우 케이블 반팔카라니트</p>
+                                            <span>166,440</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents02 tab06">
+                        <div class="tab_box_wrapper">
+                            <div class="tab_box main_box tab_box01_01">
+                                <img src="./images/review03_01_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box01_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>너무 가볍고 시원한 원피스에요! 블랙 컬러이지만 카라 부분에 화이트 배색이 있어 심심하지 않아서 좋아요! 약간 A라인으로 떨어져서
+                                            여성스러운
+                                            분위기를 연출할 수 있는 아이템입니다!</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review03_01_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">H사진관 이용 고객이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HEZZYS LADIES<br>블랙 카라배색 A라인 피케 원피스</p>
+                                            <span>125,680</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_box main_box tab_box02_01">
+                                <img src="./images/review03_02_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box02_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>핑크와 아이보리 컬러를 더한 스트라이프 패턴이 귀여운 반팔 니트입니다~ 케이블 짜임 디테일이 캐주얼함을 더해줘요! 착용했을 때 거칠 수도
+                                            있겠다 했는데 전혀 아니에요! 소...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review03_02_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">H사진관 이용 고객이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HAZZYS LADIES<br>[아이코닉] 핑크 스트라이프 면혼방 반팔니트</p>
+                                            <span>145,630</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents02 tab07">
+                        <div class="tab_box_wrapper">
+                            <div class="tab_box main_box tab_box01_01">
+                                <img src="./images/review04_01_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box01_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>너무 예뻐요 특히 각이 탄탄하게 잡혀 있고 힘없이 쓰러지지 않아서 너무 좋아요 제가 찾던 스타일이라 맘에 꼬~옥 들어서 보자마자 주문했어요
+                                            미니랑
+                                            M이랑 사이즈 차이가 많이 나지...</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review04_01_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">구매고객이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HEZZYS ACC<br>캔버스 토트백 (M사이즈)</p>
+                                            <span>253,300</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_box main_box tab_box02_01">
+                                <img src="./images/review04_02_01.jpg" alt="">
+                            </div>
+                            <div class="tab_box sub_box tab_box02_02">
+                                <div class="review_list">
+                                    <div class="review">
+                                        <p>100 사이즈 주문했다 커서 95로 재주문했습니다. 스커트는 안입는데 이건 무릎 위 길이로 짧지않고 적당해서 좋아요.</p>
+                                    </div>
+                                    <div class="list">
+                                        <div class="img_box">
+                                            <img src="./images/review04_02_02.jpg" alt="">
+                                        </div>
+                                        <div class="list_box">
+                                            <a href="">구매고객이 착용한 제품 보러가기 <i class="xi-angle-right"></i></a>
+                                            <p>HAZZYS GOLF<br>[Online Limited]블랙 트리코트 원피스</p>
+                                            <span>144,180</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main_event sec">
+                <div class="inner">
+                    <div class="tit">
+                        <h3>EVENT</h3>
+                    </div>
+                    <div class="tab-wrapper03">
+                        <a class="tab tab_left" rel="tab08">NEW</a>
+                        <a class="tab tab_right" rel="tab09">END</a>
+                    </div>
+                    <div class="tab-contents03 tab08">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab01.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>헤지스로 조금은 편해질 수 있길</strong>
+                                            <p>2023.06.12 ~ 06.25</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab02.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>HELLO!🖐 HAZZYS.COM APP</strong>
+                                            <p>2023.04.13 ~ 04.30</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab03.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>HAZZYS X INSIDE YOU💙</strong>
+                                            <p>2023.03.22 ~ 04.30</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab04.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>HAZZYS HAPPY LIST</strong>
+                                            <p>2023.01.16 ~ 01.31</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab05.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>[EVENT] Hazzys 게임 시즌 2. 이번엔 스케이트보드로 돌아왔어요~!</strong>
+                                            <p>2022.11.15 ~ 12.18</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab06.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>[EVENT]반가사유상 컬렉션 런칭 기념 힐링메시지 이벤트</strong>
+                                            <p>2022.11.14 ~ 12.11</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab07.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>[EVENT] 2022 헤지스 포인트 왕중왕전 !</strong>
+                                            <p>2022.11.16 ~ 11.21</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab08.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>[EVENT] 아이코닉 니트 퀴즈 이벤트</strong>
+                                            <p>2022.10.14 ~ 11.01</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents03 tab09">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab09.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>시크릿 혜택이 숨겨진 헤지스코인을 찾아라!</strong>
+                                            <p>2022.08.29 ~ 10.06</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab10.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>2022 새로워진 헤지스닷컴 사용설명서</strong>
+                                            <p>2022.08.28 ~ 09.30</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab11.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>HAZZYS x DENHAM 팝업스토어 오픈이벤트!</strong>
+                                            <p>2022.08.11 ~ 08.26</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab12.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>헤지스 백일장이 열렸습니다!</strong>
+                                            <p>2022.08.01 ~ 08.16</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab13.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>바캉스 필수품, 선글라스를 드립니다!</strong>
+                                            <p>2022.07.18 ~ 07.31</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab14.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>지금 장바구니에 담았던 제품을 FLEX 해보세요!</strong>
+                                            <p>2022.11.14 ~ 12.11</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab15.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>로잉크루 ROUND 2! 고인물 배틀을 시작합니다!</strong>
+                                            <p>2022.05.16 ~ 06.30</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_tab_box">
+                                        <div class="event_tab_box_img">
+                                            <a href="">
+                                                <img src="./images/event_tab16.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="event_tab_box_list">
+                                            <span></span>
+                                            <strong>시즌오프 기념 댓글만 써도 포인트가 쏟아져요!</strong>
+                                            <p>2022.06.07 ~ 06.12</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer_wrap">
+                <div class="footer_right">
+                    <div class="footer_right01">
+                        <div class="footer_right_box">
+                            <strong>NOTICE</strong>
+                            <ul>
+                                <li><a href="">공지사항</a></li>
+                                <li><a href="">이용약관</a></li>
+                                <li><a href=""><span>개인정보 처리방침</span></a></li>
+                                <li><a href=""><span>읽기쉬운 개인정보처리방침</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_right02">
+                        <div class="sns_bar">
+                            <div class="footer-sns">
+                                <a href=""><i class="xi-instagram"></i></a>
+                                <a href=""><i class="xi-facebook-official"></i></a>
+                                <a href=""><i class="xi-youtube-play"></i></a>
+                                <a href=""><i class="xi-spotify"></i></a>
+                                <a href=""><i class="xi-kakaotalk"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="footer_left">
+                    <p class="footer-logo"><img src="./images/img_logo_f.svg"></p>
+                    <ul class="footer_list01">
+                        <li>(주) LF</li>
+                        <li>대표이사 오규식/김상균</li>
+                    </ul>
+                    <ul class="footer_list01">
+                        <li>서울 강남구 언주로 870</li>
+                        <li>1544-5114</li>(유료)</li>
+                        <li>lfcs@lfcorp.com</li>
+                    </ul>
+                    <ul class="footer_list02">
+                        <li>통신판매업신고 : 제2010-서울강남-00066호</li>
+                        <li>
+                            사업자등록번호 : 211-87-87724
+                        </li>
+                    </ul>
+                    <div class="footer_alliance">
+                        <a href=""><img src="./images/img_parenter2.png" alt=""></a>
+                        <a href=""><img src="./images/img_parenter3.png" alt=""></a>
+                        <a href=""><img src="./images/img_parenter4.png" alt=""></a>
+                    </div>
+                    <p>&copy; 2022 HAZZYS ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,579 @@
+.wrap {
+    min-width: 1200rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.inner {
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 0 15rem;
+}
+
+
+.tit {
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 0 15rem;
+    color: #fff;
+}
+
+.tit h3 {
+    font-family: 'Hanna';
+    font-weight: 300;
+    font-size: 80rem;
+    margin: 0 0 20rem 0;
+}
+
+.tit p {
+    margin: 0 0 20rem 0;
+    font-weight: 300;
+}
+
+.tit a {
+    cursor: pointer;
+}
+
+.tit span {
+    font-weight: 300;
+    color: #f9f9f9dc;
+}
+
+
+@media (max-width: 576px) {
+
+    .wrap {
+        min-width: 0;
+    }
+
+    .header {
+        padding: 0 28rem;
+    }
+
+    .tit {
+        max-width: 1200rem;
+        margin: 0 auto 100rem auto;
+        padding: 0 40rem;
+        color: #fff;
+    }
+
+    .tit h3 {
+        font-family: 'Hanna';
+        font-weight: 300;
+        font-size: 50rem;
+        margin: 0 0 20rem 0;
+        line-height: 52rem;
+    }
+
+    .tit p {
+        margin: 0 0 20rem 0;
+        font-weight: 300;
+        line-height: 20rem;
+    }
+
+    .tit a {
+        cursor: pointer;
+    }
+
+
+    .tit span {
+        font-weight: 300;
+        color: #f9f9f9;
+        line-height: 20rem;
+    }
+}
+
+.header .on .menu_wrap {}
+
+
+.header a {
+    display: block;
+}
+
+.header .menu_wrap {
+    height: 110rem;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header_sns {
+    display: inline-block;
+    display: flex;
+    font-size: 32rem;
+    gap: 24rem;
+    color: #fff;
+}
+
+.header .header_sns>ul {
+    display: flex;
+    font-size: 32rem;
+    gap: 24rem;
+    color: #fff;
+}
+
+.button01 {
+    display: none;
+}
+
+.gnb {
+    position: fixed;
+    top: 35%;
+    right: 100rem;
+    z-index: 999;
+}
+
+
+.gnb li a {
+    width: 40rem;
+    height: 40rem;
+    background: url(../images/gnb_01.png) no-repeat;
+    background-size: contain;
+    margin: 0 0 3rem 0;
+}
+
+
+.gnb li.on a {
+    width: 40rem;
+    height: 40rem;
+    background: url(../images/gnb_02.png) no-repeat;
+    background-size: contain;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .header .header_sns {
+        display: none;
+    }
+
+    .header .button01 {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        max-width: 200rem;
+        font-family: 'Hanna';
+        font-size: 14rem;
+        color: #2AC1BC;
+        background: #fff;
+        padding: 14rem 20rem;
+        border-radius: 50rem;
+        right: 30rem;
+        top: 35rem;
+    }
+
+    .header .button01 i {
+        margin: 0 0 0 5rem;
+        font-size: 12rem;
+    }
+
+    .button01.on {
+        display: none;
+    }
+
+    .gnb {
+        position: fixed;
+        top: 35%;
+        right: 30rem;
+        z-index: 999;
+
+    }
+
+    .gnb li a {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .gnb li.on a {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+
+
+.sub01 {
+    background: url(../images/main_01.jpg) center center/cover;
+    position: relative;
+}
+
+.sub01 .tit {
+    margin: 0 auto 40rem auto;
+}
+
+.sub01 .store {
+    display: flex;
+    justify-content: space-between;
+    max-height: 200rem;
+    color: #fff;
+}
+
+.sub01 .store .app {}
+
+.sub01 .store .app p {
+    margin: 0 0 20rem 0;
+}
+
+.sub01 .store .app img {
+    max-width: 200rem;
+    background: #fff;
+    padding: 15rem 30rem;
+    margin: 0 20rem 0 0;
+    border-radius: 50rem;
+}
+
+.sub01 .store .qr p {
+    margin: 0 0 20rem 0;
+}
+
+.sub01 .store .qr img {
+    max-width: 250rem;
+}
+
+.sub01 .button02 {
+    display: none;
+}
+
+.sub01 .button03 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 200rem;
+}
+
+.sub01 .scroll {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 30rem;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .sub01 .store .app {
+        display: none;
+    }
+
+    .sub01 .store .qr {
+        display: none;
+    }
+
+
+    .sub01 .store {
+        display: flex;
+        justify-content: unset;
+        color: #fff;
+    }
+
+    .sub01 .button02 {
+        display: block;
+        position: absolute;
+        max-width: 200rem;
+        font-family: 'Hanna';
+        color: #fff;
+        background: #2AC1BC;
+        padding: 15rem 30rem;
+        margin: 0 20rem 0 0;
+        border-radius: 50rem;
+        left: 40rem;
+        bottom: 180rem;
+    }
+
+    .sub01 .button03 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 150rem;
+    }
+}
+
+
+.sub02 {
+    position: relative;
+}
+
+.sub02 .load {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    max-width: 700rem;
+}
+
+.sub02 .bike {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    max-width: 700rem;
+    transform: translate(-20%, -20%);
+    transition: 1s 0.5s;
+}
+
+.sub02.active .bike {
+    transform: translate(0, 0);
+}
+
+@media (max-width: 768px) {
+
+    .sub02 .load {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        max-width: 400rem;
+    }
+
+    .sub02 .bike {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        max-width: 400rem;
+        transform: translate(-20%, -20%);
+        transition: 1s 0.5s;
+    }
+
+    .sub02.active .bike {
+        transform: translate(0, 0);
+    }
+}
+
+
+.sub03 {
+    position: relative;
+}
+
+.sub03 .people {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    max-width: 700rem;
+    transform: translate(0, 70%);
+    transition: 1s 0.5s;
+}
+
+.sub03.active .people {
+    transform: translate(0, 0);
+}
+
+@media (max-width: 768px) {
+
+    .sub03 .people {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 400rem;
+        transform: translate(0, 70%);
+        transition: 1s 0.5s;
+    }
+
+    .sub03.active .people {
+        transform: translate(0, 0);
+    }
+}
+
+
+.sub04 {
+    position: relative;
+}
+
+.sub04 .present {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    max-width: 700rem;
+    transform: translate(0, 70%);
+    transition: 1s 0.5s;
+}
+
+.sub04.active .present {
+    transform: translate(0, 0);
+}
+
+
+@media (max-width: 768px) {
+
+    .sub04 .present {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 400rem;
+        transform: translate(0, 70%);
+        transition: 1s 0.5s;
+    }
+
+    .sub04.active .present {
+        transform: translate(0, 0);
+    }
+}
+
+.sub05 {
+    position: relative;
+}
+
+.sub05 .shopping {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    max-width: 700rem;
+    transform: translate(0, 70%);
+    transition: 1s 0.5s;
+}
+
+.sub05.active .shopping {
+    transform: translate(0, 0);
+}
+
+@media (max-width: 768px) {
+
+    .sub05 .shopping {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 400rem;
+        transform: translate(0, 70%);
+        transition: 1s 0.5s;
+    }
+
+    .sub05.active .shopping {
+        transform: translate(0, 0);
+    }
+}
+
+.sub06 {
+    position: relative;
+}
+
+.sub06 .rider {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    max-width: 700rem;
+    transform: translate(40%, 0);
+    transition: 1s 0.5s;
+}
+
+.sub06.active .rider {
+    transform: translate(0, 0);
+}
+
+@media (max-width: 768px) {
+
+    .sub06 .rider {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        max-width: 400rem;
+        transform: translate(40%, 0);
+        transition: 1s 0.5s;
+    }
+
+    .sub06.active .rider {
+        transform: translate(0, 0);
+    }
+}
+
+
+.sub07 {
+    overflow: hidden;
+    position: relative;
+}
+
+.sub07 .flag {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    max-width: 700rem;
+    transform: translate(0, 70%);
+    transition: 1s 0.5s;
+}
+
+.sub07.active .flag {
+    transform: translate(0, 0);
+}
+
+@media (max-width: 768px) {
+
+    .sub07 .flag {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 400rem;
+        transform: translate(0, 70%);
+        transition: 1s 0.5s;
+    }
+
+    .sub07.active .flag {
+        transform: translate(0, 0);
+    }
+}
+
+
+.ft_top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #000;
+}
+
+.ft_top_left .slogan {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-row-gap: 30rem;
+    margin: 0 0 30rem 0;
+    font-family: 'Hanna';
+    font-size: 24rem;
+    justify-items: start;
+}
+
+.ft_top_left .slogan li {
+    padding: 3rem 0;
+    border-bottom: 2rem solid #000;
+}
+
+
+.ft_top_left .ft_sns {
+    display: flex;
+    font-size: 32rem;
+    gap: 24rem;
+}
+
+.ft_top_right {
+    max-width: 400rem;
+    font-family: 'Hanna';
+    margin: 0 0 0 180rem;
+}
+
+.ft_top_right h3 {
+    font-size: 70rem;
+    margin: 0 0 20rem 0;
+}
+
+
+.ft_bottom_left {
+    line-height: 24rem;
+}
+
+.ft_bottom_left ul {
+    margin: 0 0 20rem 0;
+}
+
+.ft_bottom_left a {
+    font-weight: 500;
+    border-bottom: 1rem solid #000;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        min-width: 1200rem;
+        left: 30rem;
+    }
+}
